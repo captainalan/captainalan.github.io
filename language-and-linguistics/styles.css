@@ -1,5 +1,36 @@
+nav {
+    font-family: "Georgia", serif;
+}
+
+.abstract {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.abstract > p {
+    text-align: center;
+}
+
+.abstract > hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .blurb-box {
-    background-color: #ffff88;
-    border-radius: 1rem;
+    background-color: #F0F8FF;
     padding: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-family: "Georgia", serif;
+}
+
+.my-nav {
+    padding: 4rem 1rem 4rem 1rem; /* Be nice to the HD monitor ppl */
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    text-indent: 2em;
 }
