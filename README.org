@@ -1,0 +1,9 @@
+#+TITLE: Alan's Homepage
+#+DATE: July 31, 2019
+#+AUTHOR: Alan Wong
+* This repository
+  This repository is for my homepage, a static HTML/CSS site.
+  You can see it online [[https://captainalan.github.io][here]].
+* Todoodles
+** TODO Add links to social media
+** TODO Complete basic content for linguistics/languages subpage
