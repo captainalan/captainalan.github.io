@@ -2,12 +2,30 @@ nav {
     font-family: "Georgia", serif;
 }
 
+#LinksAndResources {
+    color: white;
+    background: #333333;
+}
+
+#LinksAndResources > p, #LinksAndResources > ul {
+    font-family: "Courier New", Courier, monospace;
+    text-indent: 0;
+}
+
+#LinksAndResources > h2, #LinksAndResources > h3 {
+    color: yellow;
+    font-family: "Courier New", Courier, monospace;
+}
+
 .abstract {
     padding: 1rem 2rem 1rem 2rem;
 }
 
 .abstract > p {
-    text-align: center;
+    font-family: "Georgia", serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .abstract > hr {
@@ -21,9 +39,24 @@ nav {
     padding: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
-    text-align: center;
+
+h1 {
     font-family: "Georgia", serif;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+    text-weight: bold;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+h3, h4, h5 {
+    font-family: "Arial", sans-serif;
+    text-align: left;
+    padding: 1rem 0 1rem 1rem; /* Some left indenting */
 }
 
 .my-nav {
@@ -31,6 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", sans-serif;
     text-indent: 2em;
 }
