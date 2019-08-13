@@ -5,3 +5,23 @@
     padding: 0.5em;
     width: 100%;
 }
+
+.portfolio-item {
+    background-color: #ccccff;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    margin: 1rem; 0 1rem 0;
+}
+
+/* Image gallery */
+.gallery {
+    background-color: #ccc;
+    border-radius: 0.5rem;
+}
+.gallery > h3 {
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+}
+.gallery > img {
+    padding: 1rem 1rem 2rem 1rem;
+}
