@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+#profile-container {
+    padding: 1.5rem;
+}
+
 .portfolio-item {
     background-color: #ccccff;
     border-radius: 0.5rem;
