@@ -29,3 +29,8 @@
 .gallery > .image-modal-link {
     padding: 1rem;
 }
+
+.crypto {
+    line-height: 1;
+    list-style-type: none;
+}
