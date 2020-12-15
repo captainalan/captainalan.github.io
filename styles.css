@@ -1,8 +1,9 @@
 #tagline {
-    background: lightgrey;
+    background: black;
+    color: white;
     display: block;
     font-family: "Courier New", Courier, monospace;
-    padding: 0.5em;
+    padding-bottom: 1rem;
     width: 100%;
 }
 
@@ -10,24 +11,59 @@
     padding: 1.5rem;
 }
 
+#my-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    background-image: linear-gradient(to bottom, #777, black);
+    color: white;
+    padding-top: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    #my-name {
+        font-size: 300%; /* Scale name font so it stays on one line */
+    }
+}
+
+#my-city {
+    color: red;
+    font-weight: bold;
+}
+
+#about-column {
+    background: #efefef;
+}
+
 .portfolio-item {
     background-color: #ccccff;
     border-radius: 0.5rem;
     padding: 1rem 1.5rem 0.5rem 1.5rem;
-    margin: 1rem; 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+}
+@media only screen and (max-width: 600px) {
+    .portfolio-item {
+        padding: 1rem 0.5rem 1rem 0.5rem; /* Don't squeeze on smaller screens */
+        border-radius: 0;
+    }
 }
 
 /* Image gallery */
 .gallery {
-    background-color: #ccc;
+    background-color: #111;
     border-radius: 0.5rem;
 }
 .gallery > h3 {
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
     padding: 1rem 1rem 0 1rem;
     text-align: center;
 }
 .gallery > .image-modal-link {
     padding: 1rem;
+}
+
+#everything-else {
+    background: #efefef;
 }
 
 .crypto {
